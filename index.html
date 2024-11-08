@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" 
+    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- __________navbar________ -->
+    <section class="top_container">
+        <div class="navbar h-class">
+            <img src="img/logo.png" class="logoc" style="height: 80px;"></img><h4 class="logo" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'; font-size: 18px;">Central Perk</h4>
+            <ul class="items v-class">
+                <li><a href="/coffee-website/index.html">home</a></li>
+                <li><a href="/coffee-website/about.html">about</a></li>
+                <li><a href="/coffee-website/blog.html">blog</a></li>
+                <li><a href="/coffee-website/contact.html">contact</a></li>
+            </ul>
+            <div class="burger">&#9776</div>
+        </div>
+        <div class="main_p">
+            <p class="top_heading">Welcome! To the central perk</p>
+            <p class="quote">The Heartbeat of Friendship</p>
+            <button class="log">learn more</button>
+        </div>
+         <!--Login profile-->
+    <div class="head">
+        <span class="close-icon">
+            <ion-icon name="close"></ion-icon>
+        </span>
+        
+        <div class="form-box">
+            <h2>Login</h2>
+            <!--Form Tags-->
+            <form action="login_process.php" method="post">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email"  name="email" style="text-transform: lowercase;" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" name="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox" name="remember"></label>Remember me
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register">
+                    <label>Don't have a account...?</label>
+                    <a href="#" class="register-link">Register</a>
+                </div>
+            </form>
+        </div>
+        <!--Regsitor Form-->
+        <div class="form-box-registor">
+            <h2>Registration</h2>
+            <!--Form Tags-->
+            <form action="register_process.php" method="post">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person-circle"></ion-icon>
+                    </span>
+                    <input type="text" name="username" id="username" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required name="email" style="text-transform: lowercase;">
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" name="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember">
+                    <label><input type="checkbox" name="terms"></label> I agree to the terms and conditions
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="register">
+                    <label>Already have a account</label>
+                    <a href="#" class="login-link">login</a>
+                </div>
+            </form>
+        </div>
+    </div>  
+    </section>
+    <!-- ________types________ -->
+    <section class="types">
+        <h1>types of coffee</h1>
+        <p class="type_p">each with its own unique flavor and preparation method</p>
+        <div class="row">
+            <div class="col">
+                <img src="img/Mocha.jpg" alt="">
+                <h5 class="nam">Mocha</h5>
+                <p class="para">Hot chocolate Mocha</p>
+            </div>
+            <div class="col">
+                <img src="img/cappucino.jpeg" alt="">
+                <h5 class="nam">cappucino</h5>
+                <p class="para">coffee with milkfoam</p>
+            </div>
+            <div class="col">
+                <img src="img/latte.jpg" alt="">
+                <h5 class="nam">latte</h5>
+                <p class="para">Pumpkin Spice Latte</p>
+            </div>
+        </div>
+    </section>
+    <!-- ________footer-sec_________ -->
+    <section class="last_footer">
+        <div class="footer_container">
+            <div class="rowline">
+                <ul>
+                    <li><h1 class="heading">contact us</h1></li>
+                    <li><i class="fab fa-facebook">@Rajeshkanna</i></li>
+                    <li><i class="fab fa-instagram">rajesh_kanna.v</i></li>
+                    <li><i class="fab fa-whatsapp">+918056023657</i></li>
+                </ul>
+            </div>
+            <div class="rowline">
+                <ul>
+                    <li><h1 class="heading">categories</h1></li>
+                    <li>Espresso</li>
+                    <li>Dark roast</li>
+                    <li>iced coffee</li>
+                    <li>guides & tips</li>       
+                </ul>
+            </div>
+            <div class="rowline">
+                <ul>
+                    <li><h1 class="heading">my account</h1></li>
+                    <li>my orders</li>
+                    <li>best sellers</li>
+                    <li>terms & conditions</li>        
+                </ul>
+            </div>
+            <div class="rowline">
+                <ul>
+                    <li><h1 class="heading">follow us</h1></li>
+                    <li><i class="fab fa-facebook"></i>facebook</li>
+                    <li><i class="fab fa-instagram"></i>instagram</li>
+                    <li><i class="fab fa-youtube"></i>youtube</li>
+                </ul>
+            </div>
+            <div class="rowline">
+                <ul>
+                    <li><h1 class="heading">Delivery</h1></li>
+                    <li>free shipping on orders. this offer is valid on all our stores</li>
+            </div>
+        </div>
+        <footer class="footer">copyright @ 2024. all rights reserved</footer>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
